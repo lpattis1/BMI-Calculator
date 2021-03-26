@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contain">
+        <h1>Calculate BMI <i class="fas fa-weight"></i></h1>
+    </div>
+    <form class="card">
+        <div class="container">
+
+            <!-- bmi form -->
+            <div class="bmi">
+                <div class="bmi__container1">
+                    <h3 class="title">Find Your BMI </h3>
+                    <div class="info">
+
+                        <p class="info__underweight">purple <span class="black-text">= underweight</span> </p>
+                        <p class="info__healthy">green <span class="black-text">= healthy</span> </p>
+                        <p class="info__overweight">yellow <span class="black-text">= overweight</span> </p>
+                        <p class="info__obese">red <span class="black-text">= obese</span> </p>
+                    </div>
+                </div>
+
+                <div class="bmi__container2">
+
+                    <form action="" class="bmi__stats">
+                        
+                        <div class="stats__weight">
+                            <h3 class="stats__weight--title">Weight (lbs)</h3>
+                            <input type="number" class="weight">
+                        </div>
+
+                        <div class="stats__height">
+                            <h3 class="stats__height--title">Height (inches)</h3>
+                            <input type="number" class="height">
+                        </div>
+
+                        <div class="stats__result">
+                            <h3 class="stats__height--result">BMI</h3>
+                            <input type="number" class="result" readonly = "true">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="bmi__btn-area">
+                    <a href="" class="btn-convert">Convert</a>
+                    <a href="" class="btn-reset">Reset</a>
+                </div>
+
+                <div class="text-result">
+                    <p class="bmi-info">Your BMI is <span class="bmi-value">value</span>, which means you are <span class="bmi-range">range</span>!</p>
+                </div>
+
+        </div>
+    </form>
+
+    
+    <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contain h1 {
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 3rem;
+}
+.contain .fa-weight {
+  margin-left: 1rem;
+}
+
+.card {
+  border: 1px solid #c5c5c5;
+  padding: 5rem;
+  height: 65rem;
+  width: 90rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.card .bmi__container1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.card .bmi__container1 .title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.card .bmi__container1 .info {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  margin-bottom: 7rem;
+  line-height: 2.1;
+}
+.card .bmi__container1 .info__underweight {
+  color: purple;
+  font-weight: 600;
+}
+.card .bmi__container1 .info__underweight .black-text {
+  color: black;
+  font-weight: 400;
+}
+.card .bmi__container1 .info__healthy {
+  color: green;
+  font-weight: 600;
+}
+.card .bmi__container1 .info__healthy .black-text {
+  color: black;
+  font-weight: 400;
+}
+.card .bmi__container1 .info__overweight {
+  color: #f5cc15;
+  font-weight: 600;
+}
+.card .bmi__container1 .info__overweight .black-text {
+  color: black;
+  font-weight: 400;
+}
+.card .bmi__container1 .info__obese {
+  color: red;
+  font-weight: 600;
+}
+.card .bmi__container1 .info__obese .black-text {
+  color: black;
+  font-weight: 400;
+}
+.card .bmi__container2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.card .bmi__container2 h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.card .bmi__container2 .stats__weight .weight {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 0.5px solid silver;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  width: 22rem;
+  margin-right: 2rem;
+}
+.card .bmi__container2 .stats__weight .weight:focus {
+  outline-width: 0;
+}
+.card .bmi__container2 .stats__height .height {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 0.5px solid silver;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  width: 22rem;
+  margin-right: 2rem;
+}
+.card .bmi__container2 .stats__height .height:focus {
+  outline-width: 0;
+}
+.card .bmi__container2 .stats__result .result {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 0.5px solid silver;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  width: 22rem;
+}
+.card .bmi__container2 .stats__result .result:focus {
+  outline-width: 0;
+}
+.card .bmi .text-result {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.card .bmi .text-result p {
+  font-size: 1.6rem;
+  font-style: italic;
+}
+.card .bmi .text-result .bmi-value {
+  font-weight: 600;
+}
+.card .bmi .text-result .bmi-range {
+  font-weight: 600;
+}
+.card .bmi__btn-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+.card .bmi__btn-area .btn-convert {
+  color: black;
+  background: #e0e0e0;
+  padding: 1.5rem 4rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  margin-right: 2rem;
+  font-weight: 500;
+}
+.card .bmi__btn-area .btn-reset {
+  color: blue;
+  border: 0.1rem solid #c4c4c4;
+  padding: 1.5rem 4rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+}/*# sourceMappingURL=main.css.map */
