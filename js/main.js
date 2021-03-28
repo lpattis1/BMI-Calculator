@@ -22,7 +22,7 @@ function calc() {
         document.querySelector(".bmi-value").style.fontWeight = "600";
         document.querySelector(".bmi-value").innerHTML = `${result}`;
         document.querySelector(".bmi-range").style.fontWeight = "600";
-        document.querySelector(".bmi-range").innerHTML = `${healthy}`;
+        document.querySelector(".bmi-range").innerHTML = `${underweight}`;
 
     } else if(result >= 18.5 && result < 24.9) {
         document.querySelector(".result").style.color = "green";
